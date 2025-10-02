@@ -221,7 +221,7 @@ export default function FutureMDAcademySite() {
   <img
     src="/logo.png"
     alt="Future MD Academy Logo"
-    className="h-10 w-10 object-contain"
+    className="h-12 w-12 object-contain"
   />
   <div className="text-white leading-tight">
     <div className="text-sm uppercase tracking-wider text-white/70">
