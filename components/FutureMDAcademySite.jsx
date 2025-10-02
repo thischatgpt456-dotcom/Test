@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
