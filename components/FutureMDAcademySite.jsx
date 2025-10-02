@@ -241,7 +241,15 @@ export default function FutureMDAcademySite() {
             <a href="#guarantee" className="hover:text-white">Guarantee</a>
             <a href="#pricing" className="hover:text-white">Pricing</a>
             <a href="#faq" className="hover:text-white">FAQ</a>
-            <a href="#contact" className="rounded-xl bg-[var(--gold)] px-4 py-2 font-semibold text-[var(--navy)] hover:opacity-90">Free Consultation</a>
+           <a
+  href="https://calendly.com/spadala-arizona/30min?month=2025-10"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-xl bg-[var(--gold)] px-4 py-2 font-semibold text-[var(--navy)] hover:opacity-90"
+>
+  Free Consultation
+</a>
+
           </nav>
 
           {/* Mobile menu */}
@@ -262,7 +270,16 @@ export default function FutureMDAcademySite() {
                 <a href="#guarantee" onClick={() => setOpen(false)} className="py-2">Guarantee</a>
                 <a href="#pricing" onClick={() => setOpen(false)} className="py-2">Pricing</a>
                 <a href="#faq" onClick={() => setOpen(false)} className="py-2">FAQ</a>
-                <a href="#contact" onClick={() => setOpen(false)} className="mt-2 inline-flex items-center justify-center rounded-xl bg-[var(--gold)] px-4 py-2 font-semibold text-[var(--navy)]">Free Consultation</a>
+                <a
+  href="https://calendly.com/spadala-arizona/30min?month=2025-10"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setOpen(false)}
+  className="mt-2 inline-flex items-center justify-center rounded-xl bg-[var(--gold)] px-4 py-2 font-semibold text-[var(--navy)]"
+>
+  Free Consultation
+</a>
+
               </div>
             </Container>
           </div>
@@ -286,7 +303,15 @@ export default function FutureMDAcademySite() {
                 One-on-one tutoring with specialists for C/P, CARS, B/B, and P/S, custom study plans, and test-taking systems built by 100th percentile scorers.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
-                <a href="#contact" className="inline-flex items-center gap-2 rounded-2xl bg-[var(--gold)] px-5 py-3 font-semibold text-[var(--navy)] shadow-sm hover:opacity-90">Get Your FREE Consultation <ArrowRight className="h-5 w-5" /></a>
+                <a
+  href="https://calendly.com/spadala-arizona/30min?month=2025-10"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 rounded-2xl bg-[var(--gold)] px-5 py-3 font-semibold text-[var(--navy)] shadow-sm hover:opacity-90"
+>
+  Get Your FREE Consultation <ArrowRight className="h-5 w-5" />
+</a>
+
                 <a href="#services" className="inline-flex items-center gap-2 rounded-2xl border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/10">Explore Our Programs</a>
               </div>
               <div className="mt-8 grid max-w-xl grid-cols-3 gap-4">
