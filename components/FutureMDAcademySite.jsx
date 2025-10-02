@@ -218,14 +218,21 @@ export default function FutureMDAcademySite() {
       <div className="sticky top-0 z-40 w-full border-b border-white/10 bg-[var(--navy)]/90 backdrop-blur">
         <Container className="flex items-center justify-between py-4">
           <a href="#home" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white text-[var(--navy)]">
-              <GraduationCap className="h-6 w-6" />
-            </div>
-            <div className="text-white">
-              <div className="text-sm uppercase tracking-wider text-white/70">Future MD Academy</div>
-              <div className="-mt-1 text-lg font-extrabold">MCAT Tutoring</div>
-            </div>
-          </a>
+  <img
+    src="/logo.png"
+    alt="Future MD Academy Logo"
+    className="h-10 w-10 object-contain"
+  />
+  <div className="text-white leading-tight">
+    <div className="text-sm uppercase tracking-wider text-white/70">
+      Future MD Academy
+    </div>
+    <div className="-mt-1 text-lg font-extrabold">
+      MCAT Tutoring
+    </div>
+  </div>
+</a>
+
 
           {/* Desktop nav */}
           <nav className="hidden items-center gap-6 text-sm text-white/90 md:flex">
